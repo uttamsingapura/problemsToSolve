@@ -1,0 +1,17 @@
+Find toppers in at least two subjects. Data given in the below pattern:
+students = [
+  {
+    name: 'mini',
+    subject: [{ maths: 23 }, { english: 23 }, { science: 25 }, { sports: 20 }],
+  },
+  {
+    name: 'jerry',
+    subject: [{ maths: 23 }, { english: 20 }, { science: 20 }, { sports: 20 }],
+  },
+  {
+    name: 'john',
+    subject: [{ maths: 23 }, { english: 25 }, { science: 20 }, { sports: 21 }],
+  },
+];
+
+For the above given set of data, students 'mini' and 'john' are the toppers in at least two subjects (in maths, science and maths, english, sports respectively) and that should be the output
